@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Bookmark } from '../model/bookmark';
 
 @Component({
   selector: 'app-bookmarks',
@@ -6,6 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./bookmarks.component.css']
 })
 export class BookmarksComponent {
-  bookmarkName:string = 'About Me';
-  bookmarkLink:string = '/';
+  @Input()
+  bookmark!: Bookmark;
+
+  constructor(){}
+
+  ngOnInit() {
+  }
 }
