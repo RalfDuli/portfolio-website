@@ -1,0 +1,84 @@
+.bg-image {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/../assets/portrait.jpeg');
+    height: 750px;
+    width: 1440px;
+    background-size: cover;
+    width: auto;
+    background-position: 50% 60%;
+}
+
+.menu-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.contact-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 0px 0px;
+    gap: 16px;
+    list-style-type: none;
+
+    width: 220px;
+    height: 64px;
+}
+
+.bookmarks {
+    list-style-type: none;
+    padding: 80px 0px 0px;
+}
+
+a:visited {
+    color: #FFFFFF;
+}
+
+.linkedin-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 8px;
+
+    background: #000000;
+    color: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+.github-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 8px;
+
+    color: #FFFFFF;
+    background: #000000;
+    
+    border: 1px solid #000000;
+}

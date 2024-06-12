@@ -1,0 +1,43 @@
+.bookmark-name {
+    width: 330.67px;
+    height: 56px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+    text-align: center;
+    
+    color: #FFFFFF;
+
+    border-bottom: 4px solid #FFFFFF;
+
+    padding: 16px 100px;
+
+    margin-right: 50px;
+}
+
+
+
+/*
+
+box-sizing: border-box;
+
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 16px 32px;
+
+width: 330.67px;
+height: 56px;
+
+border-bottom: 4px solid #FFFFFF;
+
+
+flex: none;
+order: 0;
+flex-grow: 1;
+*/
