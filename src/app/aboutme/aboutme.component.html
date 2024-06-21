@@ -1,1 +1,20 @@
-<p>aboutme works!</p>
+<div class="about-me">
+    <div class="my-description">
+        <p class="description-heading">
+            Hi, I'm Ralf Duli.
+        </p>
+        <p class="description-subtitle">
+        I am a Computer Science student at Trinity College Dublin. <br /> <br />
+        I have a strong foundation in Software Engineering and experience with
+        various programming languages. To the right, you can find some of my
+        accomplishments.
+        </p>
+    </div>
+    <div class="accomplishments">
+        <app-accomplishment [accomplishment]="teachingAssistant"></app-accomplishment>
+        <app-accomplishment [accomplishment]="swengShowcase"></app-accomplishment>
+        <app-accomplishment [accomplishment]="thirdAcc"></app-accomplishment>
+        <app-accomplishment [accomplishment]="firstClass"></app-accomplishment>
+    </div>
+</div>
+

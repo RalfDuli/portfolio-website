@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AboutmeComponent } from './aboutme/aboutme.component';
 import { BookmarksComponent } from './bookmarks/bookmarks.component';
+import { AccomplishmentComponent } from './accomplishment/accomplishment.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     AboutmeComponent,
-    BookmarksComponent
+    BookmarksComponent,
+    AccomplishmentComponent
   ],
   imports: [
     BrowserModule
