@@ -6,6 +6,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { AboutmeComponent } from './aboutme/aboutme.component';
 import { BookmarksComponent } from './bookmarks/bookmarks.component';
 import { AccomplishmentComponent } from './accomplishment/accomplishment.component';
+import { CvSectionComponent } from './cv-section/cv-section.component';
+import { ProjectsSectionComponent } from './projects-section/projects-section.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +15,9 @@ import { AccomplishmentComponent } from './accomplishment/accomplishment.compone
     NavbarComponent,
     AboutmeComponent,
     BookmarksComponent,
-    AccomplishmentComponent
+    AccomplishmentComponent,
+    CvSectionComponent,
+    ProjectsSectionComponent
   ],
   imports: [
     BrowserModule
