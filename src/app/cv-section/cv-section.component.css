@@ -1,0 +1,26 @@
+.heading {
+    font-size: 60px;
+    margin-top: 0px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px #bfa0a0;
+}
+
+.cv-section {
+    background-color: var(--brand-color);
+}
+
+.cv-images {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 45%;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.cv-left-image {
+    margin-right: 70px;
+}
