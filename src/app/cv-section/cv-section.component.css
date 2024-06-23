@@ -8,19 +8,20 @@
 
 .cv-section {
     background-color: var(--brand-color);
+    padding-bottom: 5%;
 }
 
-.cv-images {
+.img-container {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 
-img {
-    width: 45%;
-    margin-left: 30px;
-    margin-bottom: 20px;
-}
-
-.cv-left-image {
-    margin-right: 70px;
+.cv-image {
+    width: 60em;
+    height: 88em;
+    border-radius: 30px;
+    padding: 2em;
+    background-color: var(--brand-color-dark);
 }

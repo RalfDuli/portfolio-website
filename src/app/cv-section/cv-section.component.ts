@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-cv-section',
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class CvSectionComponent {
 
+  constructor(private sanitizer: DomSanitizer) { }
+
+  imgUrl = '/../assets/My_CV.jpg';
 }
