@@ -1,0 +1,12 @@
+<div class="project-card">
+    <div class="image-container">
+        <img class="project-image" [src]="project.imgUrl" alt="Project image">
+    </div>
+    <p class="project-name">{{project.name}}</p>
+    <p class="project-description">{{project.desc}}</p>
+    <div class="button-container">
+        <button class="github-button">
+            <a [href]="project.githubLink">GitHub Link</a>
+        </button>
+    </div>
+</div>

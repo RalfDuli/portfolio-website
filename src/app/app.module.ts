@@ -8,6 +8,7 @@ import { BookmarksComponent } from './bookmarks/bookmarks.component';
 import { AccomplishmentComponent } from './accomplishment/accomplishment.component';
 import { CvSectionComponent } from './cv-section/cv-section.component';
 import { ProjectsSectionComponent } from './projects-section/projects-section.component';
+import { ProjectCardComponent } from './project-card/project-card.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ProjectsSectionComponent } from './projects-section/projects-section.co
     BookmarksComponent,
     AccomplishmentComponent,
     CvSectionComponent,
-    ProjectsSectionComponent
+    ProjectsSectionComponent,
+    ProjectCardComponent
   ],
   imports: [
     BrowserModule

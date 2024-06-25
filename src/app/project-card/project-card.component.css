@@ -1,0 +1,44 @@
+.project-card {
+    padding: 2%;
+    border-radius: 30px;
+    background-color: #ffffff;
+}
+
+.image-container {
+    background-color: bisque;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+.project-image {
+    border-radius: 20%;
+    max-width: 65%;
+    max-height: 80%;
+}
+
+.project-name {
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+}
+
+.project-description {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.github-button {
+    background-color: var(--tertiary-color);
+    padding: 2% 5%;
+    border-radius: 30px;
+}
