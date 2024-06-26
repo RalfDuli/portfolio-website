@@ -7,7 +7,7 @@
     margin-top: 0px;
     text-align: center;
     color: #ffffff;
-    text-shadow: 2px 2px #bfa0a0;
+    text-shadow: 2px 2px var(--brand-color-dark) ;
 }
 
 .projects-container {

@@ -13,9 +13,6 @@ export class AboutmeComponent {
   swengShowcase: Accomplishment = new Accomplishment('Got nominated for an award in the Software Engineering industry showcase for two years in a row.',
   'Working with teams of 10 people, I helped create two large-scale projects that got nominated for the annual Software Engineering Industry Award.');
   
-  thirdAcc: Accomplishment = new Accomplishment('Achieved a First-class Honors average Throughout all years of study.',
-  'This is roughly equivalent to a 3.9 GPA in the US.');
-  
   firstClass: Accomplishment = new Accomplishment('Achieved a First-class Honors average Throughout all years of study.',
   'This is roughly equivalent to a 3.9 GPA in the US.');
 }

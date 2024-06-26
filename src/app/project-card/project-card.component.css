@@ -2,6 +2,7 @@
     padding: 2%;
     border-radius: 30px;
     background-color: #ffffff;
+    outline: 5px solid var(--brand-color-dark)
 }
 
 .image-container {

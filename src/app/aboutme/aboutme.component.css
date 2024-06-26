@@ -11,7 +11,7 @@
     font-family: 'Roboto';
     font-style: normal;
     color: #f0dada;
-    text-shadow: 1px 1px #826c6c ;/*#ba9797; */
+    text-shadow: 2px 2px var(--brand-color-dark) ;/*#ba9797; */
     font-weight: 600;
     font-size: 16px;
     line-height: 150%;
