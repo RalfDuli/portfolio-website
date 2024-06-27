@@ -4,8 +4,8 @@
         <p class="subtitle">{{subtitle}}</p>
         <nav>
             <ul class="contact-buttons">
-                <li><a class="linkedin-button" [href]="linkedinLink" target="_blank">LinkedIn</a></li>
-                <li><a class="github-button" [href]="githubLink" target="_blank">GitHub</a></li>
+                <li><button class="linkedin-button" (click)="openLink(linkedinLink)">LinkedIn</button></li>
+                <li><button class="github-button" (click)="openLink(githubLink)">GitHub</button></li>
             </ul>
         </nav>
         <nav>

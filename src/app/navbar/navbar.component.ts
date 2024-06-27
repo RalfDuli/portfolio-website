@@ -16,4 +16,8 @@ export class NavbarComponent {
   aboutMeBookmark = new Bookmark('About Me', '/');
   projectsBookmark = new Bookmark('Projects', '/');
   cvBookmark = new Bookmark('My CV', '/');
+
+  openLink(url: string) {
+    window.location.href = url;
+  }
 }
