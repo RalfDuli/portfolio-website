@@ -1,9 +1,9 @@
 export class Bookmark {
     name:string;
-    url:string;
+    id:string;
     
-    constructor(name:string, url:string) {
+    constructor(name:string, id:string) {
         this.name = name;
-        this.url = url;
+        this.id = id;
     }
 }

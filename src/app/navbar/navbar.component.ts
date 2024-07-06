@@ -13,9 +13,9 @@ export class NavbarComponent {
   linkedinLink:string = 'https://www.linkedin.com/in/ralf-duli-0ba703224/';
   githubLink:string = 'https://github.com/RalfDuli';
 
-  aboutMeBookmark = new Bookmark('About Me', '/');
-  projectsBookmark = new Bookmark('Projects', '/');
-  cvBookmark = new Bookmark('My CV', '/');
+  aboutMeBookmark = new Bookmark('About Me', 'AboutMe');
+  projectsBookmark = new Bookmark('Projects', 'Projects');
+  cvBookmark = new Bookmark('My CV', 'CV');
 
   openLink(url: string) {
     window.location.href = url;

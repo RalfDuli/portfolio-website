@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Bookmark } from '../model/bookmark';
+import { ViewportScroller } from "@angular/common";
 
 @Component({
   selector: 'app-bookmarks',
@@ -10,8 +11,14 @@ export class BookmarksComponent {
   @Input()
   bookmark!: Bookmark;
 
-  constructor(){}
-
-  ngOnInit() {
+  constructor(private scroller: ViewportScroller) {}
+  
+  scrollToElem(elemStr: string) {
+    console.log("HI!");
+    document.getElementById(elemStr)!.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "nearest"
+    });
   }
 }
