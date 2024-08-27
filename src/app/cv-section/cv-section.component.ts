@@ -10,5 +10,5 @@ export class CvSectionComponent {
 
   constructor(private sanitizer: DomSanitizer) { }
 
-  imgUrl = '/../assets/My_CV.jpg';
+  imgUrl = '/../assets/My_CV.png';
 }
